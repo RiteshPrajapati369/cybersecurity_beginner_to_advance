@@ -774,3 +774,14 @@ This foundation will prepare you for advanced networking topics, network securit
 - CCNA Routing and Switching: Study Guide
 - CompTIA Network+ Certification Study Guide
 - Networking fundamentals on Cisco Learning Network
+
+
+---
+
+**Previous Module:** [← Module 1 — Introduction to Cybersecurity](Module_01_Introduction_to_Cybersecurity.md)
+
+**Next Module:** [Module 3 — Networking Deep Dive Part 2 →](Module_03_Networking_Deep_Dive_Part_2.md)
+
+---
+
+*Module 2 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

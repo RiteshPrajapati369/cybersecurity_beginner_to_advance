@@ -1183,7 +1183,7 @@ Before moving to Module 2, confirm you can:
 
 ---
 
-**Next Module:** [Module 2 — Cyber Laws, Ethics & Compliance →](../Module_02_Cyber_Laws_Ethics_Compliance.md)
+**Next Module:** [Module 2 — Cyber Laws, Ethics & Compliance →](Module_02_Cyber_Laws_Ethics_Compliance.md)
 
 ---
 

@@ -1421,7 +1421,7 @@ Before moving to Module 3, confirm you can:
 
 **Previous Module:** [← Module 1 — Introduction to Cybersecurity](Module_01_Introduction_to_Cybersecurity.md)
 
-**Next Module:** [Module 3 — Networking Deep Dive Part 1 →](Module_03_Networking_Part1.md)
+**Next Module:** [Module 3 — Networking Deep Dive Part 1 →](Module_3_Networking_Deep_Dive_Part_1.md)
 ---
 
 *Module 2 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

@@ -1419,7 +1419,7 @@ Before moving to Module 3, confirm you can:
 
 ---
 
-**Previous Module:** [← Module 1 — Introduction to Cybersecurity](../Module 1 — Introduction to Cybersecurity)
+**Previous Module:** [← Module 1 — Introduction to Cybersecurity](../Module_01_Introduction_to_Cybersecurity.md)
 
 **Next Module:** [Module 3 — Networking Deep Dive Part 1 →](../Module_03_Networking_Part1.md)
 

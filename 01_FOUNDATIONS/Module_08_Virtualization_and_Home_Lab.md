@@ -2409,10 +2409,9 @@ Before moving to Module 9, confirm you can:
 
 ---
 
-**Previous Module:** [← Module 7 — Linux Security & Administration](../Module_07_Linux_Security.md)
+**Previous Module:** [← Module 7 — Linux Security & Administration](Module_07_Linux_Security_&_Administration.md)
 
-**Next Module:** [Module 9 — OSINT Part 1 →](../Module_09_OSINT_Part1.md)
-
+**Next Module: Updating....
 ---
 
 *Module 8 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

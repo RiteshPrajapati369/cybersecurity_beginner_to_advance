@@ -1617,9 +1617,9 @@ LOGOUT
 
 ---
 
-**Previous Module:** [← Module 3 — Networking Deep Dive Part 1](Module_3_Networking_Deep_Dive_Part_1.md)
+**Previous Module:** [← Module 3 — Networking Deep Dive Part 1](Module_03_Networking_Deep_Dive_Part_1.md)
 
-**Next Module:** [Module 5 — Cryptography Fundamentals →](Module_5_Cryptography_Fundamentals.md)
+**Next Module:** [Module 5 — Cryptography Fundamentals →](Module_05_Cryptography_Fundamentals.md)
 
 ---
 

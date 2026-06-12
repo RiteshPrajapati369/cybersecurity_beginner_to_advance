@@ -655,6 +655,6 @@ To further expand your understanding of Linux administration, system hardening, 
 
 ---
 
-*Previous Module:* [← Module 6 — Windows Security & Administration](Module_05_Cryptography_&_PKI.md)
+*Previous Module:* [← Module 6 — Windows Security & Administration](Module_06_Windows_Security_&_Administration.md)
 
-*Next Module:* Module 8 — Wine Security & Windows Binaries →
+*Next Module:* [Module 08 Virtualization and Home Lab →](Module_08_Virtualization_and_Home_Lab.md)

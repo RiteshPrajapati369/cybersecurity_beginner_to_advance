@@ -866,3 +866,11 @@ To deepen your understanding of Windows internals, security features, and log an
 * **Active Directory Security:** Read the [Microsoft Active Directory Domain Services Security Documentation](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory) to learn enterprise design patterns and credentials protection strategies.
 * **Threat Hunter Guides:** Bookmark the [MITRE ATT&CK Framework](https://attack.mitre.org/matrices/enterprise/windows/) to audit real-world techniques used by adversaries targeting Windows enterprise networks.
 
+
+**Previous Module:** [← Module 5 — Cryptography Fundamentals & PKI ](Module_05_Cryptography_and_PKI_&_PKI.md)
+
+**Next Module:** [ Module 6 —  Linux Security & Administration (Coming Soon)→](Module_03_Networking_Deep_Dive_Part_1.md)
+
+---
+
+*Module 2 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

@@ -1068,7 +1068,7 @@ This module gives you the core networking knowledge every cybersecurity practiti
 
 ---
 
-**Previous Module:** [← Module 1 — Introduction to Cybersecurity](Module_01_Introduction_to_Cybersecurity.md)
+**Previous Module:** [← Module 2: Cyber Laws, Ethics & Compliance](Module_02_Cyber_Laws_Ethics_Compliance.md)
 
 **Next Module:** [Module 4 — Networking Deep Dive Part 2 →](Module_04_Networking_Deep_Dive_Part_2.md)
 

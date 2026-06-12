@@ -869,8 +869,8 @@ To deepen your understanding of Windows internals, security features, and log an
 
 **Previous Module:** [← Module 5 — Cryptography Fundamentals & PKI ](Module_05_Cryptography_and_PKI_&_PKI.md)
 
-**Next Module:** [ Module 6 —  Linux Security & Administration (Coming Soon)→](Module_03_Networking_Deep_Dive_Part_1.md)
+**Next Module:** [ Module 07 Linux Security & Administration.md→](Module_07_Linux_Security_&_Administration.md)
 
 ---
 
-*Module 2 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*
+*Module 6 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

@@ -866,4 +866,3 @@ To deepen your understanding of Windows internals, security features, and log an
 * **Active Directory Security:** Read the [Microsoft Active Directory Domain Services Security Documentation](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory) to learn enterprise design patterns and credentials protection strategies.
 * **Threat Hunter Guides:** Bookmark the [MITRE ATT&CK Framework](https://attack.mitre.org/matrices/enterprise/windows/) to audit real-world techniques used by adversaries targeting Windows enterprise networks.
 
-

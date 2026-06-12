@@ -1704,7 +1704,7 @@ Before moving to Module 6, confirm you can:
 
 **Previous Module:** [← Module 4 — Networking Deep Dive Part 2](../Module_04_Networking_Deep_Dive_Part_2.md)
 
-**Next Module:** [Module 6 — Windows Security & Administration →](../Module_06_Windows_Security.md)
+**Next Module:** [Module 6 — Windows Security & Administration →](Module_06_Windows_Security_&_Administration.md)
 
 ---
 

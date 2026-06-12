@@ -1619,7 +1619,7 @@ LOGOUT
 
 **Previous Module:**  [← Module 3 — Networking Deep Dive Part 1](Module_03_Networking_Deep_Dive_Part_1.md)
 
-**Next Module:** [Module 5 — Cryptography Fundamentals →](Module_05_Cryptography_Fundamentals.md)
+**Next Module:** [Module 5 — Cryptography Fundamentals & PKI →](Module_05_Cryptography_and_PKI_&_PKI.md)
 
 ---
 

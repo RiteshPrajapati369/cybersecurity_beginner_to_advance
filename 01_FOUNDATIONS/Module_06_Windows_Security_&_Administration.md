@@ -84,13 +84,13 @@ The Windows architecture consists of several interdependent layers that handle r
 
 Environment subsystems act as an intermediary layer that exposes specific OS personalities to applications.
 
-* **Win32 Subsystem:** The primary subsystem in Windows (_**csrss.exe**_ and _**win32k.sys**_). It manages the graphical user interface (GUI), controls windows management, captures user inputs (keyboard/mouse), and handles basic OS environment options.
+* **Win32 Subsystem:** The primary subsystem in Windows (_csrss.exe_ and _win32k.sys_). It manages the graphical user interface (GUI), controls windows management, captures user inputs (keyboard/mouse), and handles basic OS environment options.
 
 #### ntdll.dll
 
 The lowest layer of User Mode. It serves as a bridge between user-space applications and the Kernel.
 
-* **Function:** When an application calls a standard Windows API function, _**ntdll.dll**_ translates that request into a specific **Native API** format and uses hardware instructions (like _**sysenter**_ or _**syscall**_) to transition the request into Kernel Mode.
+* **Function:** When an application calls a standard Windows API function, _ntdll.dll_ translates that request into a specific **Native API** format and uses hardware instructions (like _sysenter_ or _syscall_) to transition the request into Kernel Mode.
 
 #### Executive Services
 
@@ -107,7 +107,7 @@ Positioned directly beneath the Executive Services, the core kernel performs low
 
 #### HAL (Hardware Abstraction Layer)
 
-A low-level, loadable kernel module (_**hal.dll**_) that sits directly between the physical hardware and the rest of the operating system.
+A low-level, loadable kernel module (_hal.dll_) that sits directly between the physical hardware and the rest of the operating system.
 
 * **Function:** It hides platform-specific hardware differences (such as motherboard and chipset variations) from the OS core. This isolation allows the core Windows kernel, executive services, and drivers to run unmodified across varying hardware setups.
 
@@ -146,15 +146,15 @@ The registry is organized in a tree-like structure similar to folders and files 
 
 ### 2.2 The 5 Root Hives (HKEYs)
 
-While navigating the Registry Editor (`regedit.exe`), you will encounter five primary root hives. Memorize their distinct roles:
+While navigating the Registry Editor (_regedit.exe_), you will encounter five primary root hives. Memorize their distinct roles:
 
 | Root Hive | Short Name | Purpose & Security Relevance |
 | --- | --- | --- |
 | **HKEY_CLASSES_ROOT** | **_HKCR_** | Stores file associations and COM (Component Object Model) class registrations. Explored by attackers for **file extension hijacking**. |
 | **HKEY_CURRENT_USER** | **_HKCU_** | Stores configuration specific to the *currently logged-in user* (desktop wallpaper, environment variables, user software preferences). |
 | **HKEY_LOCAL_MACHINE** | **_HKLM_** | Contains system-wide configurations for hardware, drivers, and security settings. Applies to *all users* and requires administrative privileges to modify. |
-| **HKEY_USERS** | **_HKU_** | Contains individual user profile configurations for all loaded accounts on the system. **_HKCU_** is simply a dynamic link to the current user's SID inside `HKU`. |
-| **HKEY_CURRENT_CONFIG** | _**HKCC**_ | Stores volatile hardware profile information gathered at system bootup (linked to `HKLM\SYSTEM\CurrentControlSet`). |
+| **HKEY_USERS** | **_HKU_** | Contains individual user profile configurations for all loaded accounts on the system. **_HKCU_** is simply a dynamic link to the current user's SID inside _HKU_. |
+| **HKEY_CURRENT_CONFIG** | _**HKCC**_ | Stores volatile hardware profile information gathered at system bootup (linked to _HKLM\SYSTEM\CurrentControlSet_). |
 
 ---
 
@@ -201,3 +201,90 @@ Attackers modify specific registry keys to ensure their malware automatically ex
 #### 3. Registry-Based Malware (Fileless Attacks)
 
 * **The Threat:** Advanced persistent threats (APTs) store entire malicious payloads (like encrypted PowerShell scripts) inside custom registry values. When a legitimate system process reads the value, it executes the code directly in memory, leaving **no file artifacts** on the hard drive for traditional antivirus tools to scan.
+
+---
+
+## 3. Windows Services
+
+Windows Services are **long-running executable applications** that operate in the background. They run without a user interface and can start executing before any user logs into the system.
+
+In simple terms: they are the background workers of the OS, handling tasks like network connections, web printing, anti-virus scanning, and system updates.
+
+```
++-------------------------------------------------------+
+|             Service Control Manager (SCM)             |
+|                    (services.exe)                     |
++-------------------------------------------------------+
+                           ||
+        +------------------+------------------+
+        |                                     |
+        \/                                    \/
+ [ svchost.exe ]                       [ Standalone Exe ]
+ (Shared Process)                     (Dedicated Process)
+  |--> RPCSS                           |--> Cybereason.exe
+  |--> Winmgmt                         |--> MsMpEng.exe
+
+```
+
+---
+
+### 3.1 The Service Control Manager (SCM)
+
+The **Service Control Manager** (***services.exe***) is the core management component of the Windows service subsystem. It acts as the traffic controller for all background processes.
+
+* **Goal:** Manage the startup, shutdown, configuration, and status tracking of all system services.
+* **Database:** The SCM reads configuration data directly from the Windows Registry path: ***HKLM\SYSTEM\CurrentControlSet\Services***.
+* **Interaction:** Security administrators interact with the SCM using GUI utilities like **Services snap-in** (***services.msc***), or command-line interfaces such as ***sc.exe*** and PowerShell cmdlets (e.g., ***Get-Service***).
+
+---
+
+### 3.2 Service Hosting Models
+
+Windows executes services using two primary process models:
+
+#### 1. Shared Processes (*svchost.exe*)
+
+To conserve system resources, Windows groups multiple low-level internal services into a single execution container called **Service Host** (***svchost.exe***).
+
+* **Characteristics:** Individual DLL-based services are loaded dynamically into a shared instance of ***svchost.exe***.
+* **Security Relevance:** Because dozens of legitimate services use ***svchost.exe***, malicious actors frequently hide malware inside fake process names like ***svch0st.exe*** or inject malicious DLLs directly into a legitimate ***svchost.exe*** instance to blend in with normal traffic.
+
+#### 2. Standalone / Dedicated Processes
+
+Some complex applications require an entirely isolated execution space.
+
+* **Characteristics:** The service runs inside its own dedicated executable file.
+* **Examples:** Third-party endpoint detection agents (like ***Cybereason.exe*** or **CrowdStrike**) and the built-in Windows Defender core engine (***MsMpEng.exe***).
+
+---
+
+### 3.3 Service Startup Types
+
+Every service is assigned a specific startup behavior that controls when it loads into memory:
+
+| Startup Type | Behavior |
+| --- | --- |
+| **Automatic** | The service starts immediately during system bootup. |
+| **Automatic (Delayed Start)** | The service starts shortly after the system boots to minimize initial login lag. |
+| **Manual** | The service remains idle until explicitly started by a user, script, or dependent application. |
+| **Disabled** | The service cannot be started by the system or user under any circumstances. |
+
+---
+
+### 3.4 Common Cyber Attacks Targeting Windows Services
+
+Because services run with high privileges and survive system reboots, they are heavily targeted by adversaries during operations.
+
+#### 1. Privilege Escalation via Unquoted Service Paths
+
+* **The Vulnerability:** Occurs when a service path contains spaces and is not enclosed in quotation marks (e.g., ***C:\Program Files\Custom Sub\Service.exe***).
+* **The Threat:** Windows attempts to resolve the path sequentially. An attacker with low privileges can place a malicious executable named ***Program.exe*** inside *C:*, causing the SCM to execute the malware with **SYSTEM privileges** the next time the service restarts.
+
+#### 2. Insecure Service Permissions
+
+* **The Vulnerability:** Weak Access Control Lists (ACLs) applied directly to a service configuration.
+* **The Threat:** If a low-privileged user account is granted ***SERVICE_CHANGE_CONFIG*** permissions, an attacker can modify the service's binary path parameter (***binPath***) using ***sc config***. They can point the service to a malicious payload, restart the service, and gain full system control.
+
+#### 3. Service Persistence
+
+* **The Threat:** Attackers create an entirely new, malicious background service using administrative tools (***sc create MaliciousService binPath= "C:\temp\shell.exe" start= auto***). This ensures their command-and-control connection automatically re-establishes every time the computer powers on.

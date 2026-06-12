@@ -1074,4 +1074,4 @@ This module gives you the core networking knowledge every cybersecurity practiti
 
 ---
 
-*Module 2 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*
+*Module 3 | Phase 1: Absolute Foundations | cybersecurity_beginner_to_advance*

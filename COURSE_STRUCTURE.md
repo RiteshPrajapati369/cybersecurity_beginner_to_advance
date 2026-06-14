@@ -80,18 +80,19 @@ Zero to job-ready professional. No gaps. Covers Offensive (Red Team), Defensive 
 - [ ] Hands-on: Harden Linux (SSH config, disable root, set firewall)
 
 ## Module 8: Virtualization & Home Lab Setup
-- [ ] Virtualization Types (Type 1 vs Type 2 Hypervisors)
-- [ ] VirtualBox vs VMware Workstation vs Proxmox vs QEMU/KVM
-- [ ] Setting Up Kali Linux (attacker VM)
-- [ ] Setting Up Windows 10/11 (target VM)
-- [ ] Setting Up Ubuntu Server (target)
-- [ ] Vulnerable Targets (Metasploitable 2/3, DVWA, Juice Shop, VulnHub machines)
-- [ ] Networking in Virtualization (NAT, Bridged, Host-Only, Internal)
-- [ ] Snapshots, Cloning, Templates, Vagrant
-- [ ] Docker for Security (containers vs VMs, Docker security)
-- [ ] Hands-on: Build complete home lab with 4 VMs + networking
+- [ ] What is Virtualization? (why every cybersecurity pro needs a lab)
+- [ ] Minimum Hardware Requirements (RAM, storage, CPU, BIOS settings)
+- [ ] Installing VirtualBox (step by step)
+- [ ] Downloading Kali Linux (pre-built OVA — not ISO)
+- [ ] Importing Kali Linux into VirtualBox
+- [ ] First Boot & Update (change default password, apt update)
+- [ ] Downloading Metasploitable 2 (vulnerable target)
+- [ ] Importing Metasploitable 2 (create VM with existing disk)
+- [ ] Host-Only Networking (isolate VMs from internet)
+- [ ] Verify Connectivity (ping, simple Nmap scan)
+- [ ] Snapshots (save and restore clean state)
+- [ ] Hands-on: Build working lab with 2 VMs + Host-Only network
 
----
 
 ## PHASE 2: RECONNAISSANCE & OSINT (Modules 9-11)
 

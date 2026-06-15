@@ -609,7 +609,7 @@ Save `lab_09_osint_basics.md` in your course notes folder.
 
 ---
 
-**Previous Module:** [Module 8 — Virtualization & Home Lab Setup →](../Module_08_Virtualization_Lab.md)
+**Previous Module:** [Module 8 — Virtualization & Home Lab Setup →](../01_FOUNDATIONS/Module_08_Virtualization_Lab.md)
 
 **Next Module:** [Module 10 — OSINT Part 2 (People & Social Media) →](../Module_10_OSINT_Part2.md)
 

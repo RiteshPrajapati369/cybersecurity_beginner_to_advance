@@ -542,9 +542,9 @@ Your lab is ready. Proceed to **Module 9: OSINT Part 1**.
 
 ---
 
-**Previous Module:** [Module 7 — Linux Security & Administration →](../Module_07_Linux_Security.md)
+**Previous Module:** [Module 7 — Linux Security & Administration →](Module_07_Linux_Security_&_Administration.md)
 
-**Next Module:** [Module 9 — OSINT Part 1 →](../Module_09_OSINT_Part1.md)
+**Next Module:** [Module 9 — OSINT Part 1 →](Module_09_OSINT_Part_1.md)
 
 ---
 

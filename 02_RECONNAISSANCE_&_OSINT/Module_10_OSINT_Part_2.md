@@ -351,6 +351,8 @@ curl https://emailrep.io/email@example.com
 
 **URL:** https://haveibeenpwned.com
 
+##Using Comand Lines
+
 **Usage:**
 1. Enter an email address
 2. HIBP shows which breaches contain that email
@@ -359,7 +361,7 @@ curl https://emailrep.io/email@example.com
 **API (free, rate-limited):**
 ```bash
 curl https://haveibeenpwned.com/api/v3/breachedaccount/email@example.com
-# Add header: hibp-api-key: YOUR_KEY
+# Add header: hibp-api-key: YOUR_KEY (Login in haveibeenpwned and Get your API)
 ```
 
 **Domain search (paid):**

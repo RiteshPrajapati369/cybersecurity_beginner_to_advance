@@ -1098,10 +1098,10 @@ Save `lab_10_full_osint_report.md` with your findings.
 
 ---
 
-**Previous Module:** [Module 9 — OSINT Part 1 →](/Module_09_OSINT_Part_1.md
+**Previous Module:** [Module 9 — OSINT Part 1 →](Module_09_OSINT_Part_1.md
 )
 
-**Next Module:** [Module 11 — Anonymity, Privacy & OpSec →](../Module_11_Anonymity_Privacy_OpSec.md)
+**Next Module:** [Module 11 — Anonymity, Privacy & OpSec →](Module_11_Anonymity_Privacy_OpSec.md)
 
 ---
 

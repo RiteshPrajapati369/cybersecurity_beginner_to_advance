@@ -807,7 +807,6 @@ Record:
 
 Create `lab_11_anonymity_ops.md`:
 
-```markdown
 # Lab 11: Anonymity, Privacy & OpSec
 
 ## TOR Browser
@@ -839,7 +838,6 @@ Create `lab_11_anonymity_ops.md`:
 - [ ] OnionShare used to share a file
 - [ ] No personal information entered
 - [ ] No files downloaded from suspicious sources
-```
 
 ---
 

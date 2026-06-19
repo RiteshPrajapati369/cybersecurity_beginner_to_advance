@@ -42,6 +42,7 @@
 ### Installation
 
 **Linux (Ubuntu/Debian/Kali):**
+_It was pre-installed tool in kali linux but in case if it was not installed the can be install using given commands_
 ```bash
 sudo apt update
 sudo apt install nmap -y

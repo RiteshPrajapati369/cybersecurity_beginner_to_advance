@@ -1,7 +1,7 @@
 # Cybersecurity Beginner to Advanced - Full Course Structure (Complete Edition)
 
 ## Course Overview
-Zero to job-ready professional. No gaps. Covers Offensive (Red Team), Defensive (Blue Team), Management, and Career.
+Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Covers Offensive (Red Team), Defensive (Blue Team), Management, and Career.
 
 ---
 

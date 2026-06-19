@@ -946,9 +946,9 @@ Create `lab_11_anonymity_ops.md`:
 
 ---
 
-**Previous Module:** [Module 10 — OSINT Part 2 →](Module_10_OSINT_Part_2.md)
+**Previous Module:** [Module 10 — OSINT Part 2](Module_10_OSINT_Part_2.md)
 
-**Next Module:** [Module 12 — Network Scanning with Nmap →](../Module_12_Nmap.md)
+**Next Module:** [Module 12 — Network Scanning with Nmap](../Module_12_Nmap.md)
 
 ---
 

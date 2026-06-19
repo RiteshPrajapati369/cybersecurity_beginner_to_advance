@@ -376,7 +376,7 @@ sudo systemctl start i2p
 | | TOR | I2P | Freenet |
 |---|---|---|---|
 | **Focus** | Browsing | Hosting services | File storage |
-| **Decentralized** | ❌ (central directory) | ✅ (DHT) | ✅ (DHT) |
+| **Decentralized** |  (central directory) |  (DHT) |  (DHT) |
 | **Speed** | Slow | Faster | Very slow |
 | **Installing** | Browser | Router software | Standalone app |
 | **Best for** | Anonymous browsing | Hidden services | P2P file sharing |
@@ -946,7 +946,7 @@ Create `lab_11_anonymity_ops.md`:
 
 ---
 
-**Previous Module:** [Module 10 — OSINT Part 2 →](../Module_10_OSINT_Part2.md)
+**Previous Module:** [Module 10 — OSINT Part 2 →](Module_10_OSINT_Part_2.md)
 
 **Next Module:** [Module 12 — Network Scanning with Nmap →](../Module_12_Nmap.md)
 

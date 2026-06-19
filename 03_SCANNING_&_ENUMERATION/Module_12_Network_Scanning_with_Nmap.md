@@ -46,7 +46,7 @@
 sudo apt update
 sudo apt install nmap -y
 ```
-
+_It was a pre-installed tool in kali linux._
 **macOS:**
 ```bash
 brew install nmap

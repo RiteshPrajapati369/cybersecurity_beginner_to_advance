@@ -1,4 +1,4 @@
-# Module 10: OSINT (Open Source Intelligence) - Part 2
+# Module 11: OSINT (Open Source Intelligence) - Part 2
 
 > **Phase 2 — Reconnaissance & OSINT**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 5–6 hours | 📁 Folder: `02_OSINT`
@@ -1098,10 +1098,10 @@ Save `lab_10_full_osint_report.md` with your findings.
 
 ---
 
-**Previous Module:** [Module 9 — OSINT Part 1](Module_09_OSINT_Part_1.md
+**Previous Module:** [Module 9 — OSINT Part 1](Module_10_OSINT_Part_1.md
 )
 
-**Next Module:** [Module 11 — Anonymity, Privacy & OpSec](Module_11_Anonymity_Privacy_&_Operational_Security.md)
+**Next Module:** [Module 11 — Anonymity, Privacy & OpSec](Module_12_Anonymity_Privacy_&_Operational_Security.md)
 
 ---
 

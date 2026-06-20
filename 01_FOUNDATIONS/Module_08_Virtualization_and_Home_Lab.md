@@ -544,7 +544,7 @@ Your lab is ready. Proceed to **Module 9: OSINT Part 1**.
 
 **Previous Module:** [Module 7 — Linux Security & Administration](Module_07_Linux_Security_&_Administration.md)
 
-**Next Module:** [Module 9: OSINT (Open Source Intelligence) - Part 1](Module_09_Linux_Basic_Commands.md)
+**Next Module:** [Module 9: Linux Basic Commands](Module_09_Linux_Basic_Commands.md)
 
 ---
 

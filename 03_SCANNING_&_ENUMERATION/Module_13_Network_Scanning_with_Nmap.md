@@ -1,4 +1,4 @@
-# Module 12: Network Scanning with Nmap
+# Module 13: Network Scanning with Nmap
 
 > **Phase 3 — Scanning & Enumeration**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 8–10 hours | 📁 Folder: `03_SCANNING`
@@ -1428,9 +1428,9 @@ Create `lab_12_nmap_enumeration.md`:
 
 ---
 
-**Previous Module:** [Module 11 — Anonymity, Privacy & OpSec](../02_RECONNAISSANCE_&_OSINT/Module_11_Anonymity_Privacy_&_Operational_Security.md)
+**Previous Module:** [Module 11 — Anonymity, Privacy & OpSec](../02_RECONNAISSANCE_&_OSINT/Module_12_Anonymity_Privacy_&_Operational_Security.md)
 
-**Next Module:** [Module 13 — Packet Analysis with Wireshark](Module_13_Packet_Analysis_with_Wireshark.md)
+**Next Module:** [Module 13 — Packet Analysis with Wireshark](Module_14_Packet_Analysis_with_Wireshark.md)
 
 ---
 

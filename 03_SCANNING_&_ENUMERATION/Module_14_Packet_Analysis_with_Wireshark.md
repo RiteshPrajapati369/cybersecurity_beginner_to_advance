@@ -1,4 +1,4 @@
-# Module 13: Packet Analysis with Wireshark
+# Module 14: Packet Analysis with Wireshark
 
 > **Phase 3 — Scanning & Enumeration**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 8–10 hours | 📁 Folder: `03_SCANNING`

@@ -611,7 +611,7 @@ Save `lab_09_osint_basics.md` in your course notes folder.
 
 **Previous Module:** [Module 9 — Linux Basic Commands](../01_FOUNDATIONS/Module_09_Linux_Basic_Commands.md)
 
-**Next Module:** [Module 11 — OSINT Part 2 (People & Social Media) ](Module_11_OSINT_Part_2.md)
+**Next Module:** [Module 11 — OSINT (Open Source Intelligence) - Part 2) ](Module_11_OSINT_Part_2.md)
 
 ---
 

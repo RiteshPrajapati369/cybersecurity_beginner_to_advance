@@ -5,7 +5,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 1: ABSOLUTE FOUNDATIONS (Modules 1-8)
+## PHASE 1: ABSOLUTE FOUNDATIONS (Modules 1-9)
 
 ## Module 1: Introduction to Cybersecurity
 - [ ] What is Cybersecurity? (CIA Triad, AAA, Non-repudiation)
@@ -93,10 +93,24 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Snapshots (save and restore clean state)
 - [ ] Hands-on: Build working lab with 2 VMs + Host-Only network
 
+## Module 9: Linux Basic Commands
+- [ ] Linux File System Navigation (pwd, ls, cd, tree)
+- [ ] File Management Commands (touch, mkdir, cp, mv, rm, find)
+- [ ] Viewing and Editing Files (cat, less, head, tail, nano, vim)
+- [ ] File Permissions and Ownership (chmod, chown, SUID, SGID, Sticky Bit)
+- [ ] Process Management (ps, top, htop, kill, jobs, fg, bg)
+- [ ] Network Commands (ip, ifconfig, ping, ss, netstat, nslookup, dig, curl, wget)
+- [ ] User and Group Management (whoami, id, sudo, useradd, passwd)
+- [ ] System Information Commands (uname, df, du, free, history)
+- [ ] Searching and Filtering (grep, awk, sed, pipes, redirections)
+- [ ] Compression and Archiving (tar, zip, unzip)
+- [ ] Package Management (apt, dpkg)
+- [ ] Hands-on: Linux Command Practice
 
-## PHASE 2: RECONNAISSANCE & OSINT (Modules 9-11)
 
-## Module 9: OSINT (Open Source Intelligence) - Part 1
+## PHASE 2: RECONNAISSANCE & OSINT (Modules 10-12)
+
+## Module 10: OSINT (Open Source Intelligence) - Part 1
 - [ ] OSINT Methodology (passive vs active, legal boundaries)
 - [ ] OSINT Framework (overview, tool categories)
 - [ ] Google Dorking (intitle:, inurl:, filetype:, site:, cache:, related:, info:, allinurl:, allintitle:)
@@ -106,7 +120,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Metadata Analysis (ExifTool, FOCA, Metagoofil)
 - [ ] Hands-on: Find exposed documents, login pages, sensitive files
 
-## Module 10: OSINT (Open Source Intelligence) - Part 2
+## Module 11: OSINT (Open Source Intelligence) - Part 2
 - [ ] People Intelligence (Sherlock, Maigret, WhatsMyName, Holehe)
 - [ ] Social Media OSINT (Twitter: twint, snscrape; LinkedIn, Instagram, Facebook)
 - [ ] Email OSINT (Hunter.io, EmailRep, HaveIBeenPwned, DeHashed)
@@ -116,7 +130,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Code OSINT (GitHub dorking, search code, commits)
 - [ ] Hands-on: Full OSINT investigation on a target (ethical authorization)
 
-## Module 11: Anonymity, Privacy & Operational Security
+## Module 12: Anonymity, Privacy & Operational Security
 - [ ] Surface Web vs Deep Web vs Dark Web (comparison, sizes, content)
 - [ ] TOR Browser (setup, configuration, hidden services, .onion sites)
 - [ ] Dark Web Search Engines (Ahmia, Torch, Haystak, Dark.fail, Not Evil)
@@ -130,9 +144,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 3: SCANNING & ENUMERATION (Modules 12-15)
+## PHASE 3: SCANNING & ENUMERATION (Modules 13-16)
 
-## Module 12: Network Scanning with Nmap
+## Module 13: Network Scanning with Nmap
 - [ ] Nmap Fundamentals (installation, syntax, help)
 - [ ] Host Discovery (-sn, -Pn, -PS, -PA, -PU, -PY)
 - [ ] Port Scanning Techniques (-sS, -sT, -sU, -sF, -sN, -sX, -sA, -sW, -sM, -sZ)
@@ -145,7 +159,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Zenmap (GUI for Nmap)
 - [ ] Hands-on: Full network enumeration, use NSE vuln scripts
 
-## Module 13: Packet Analysis with Wireshark
+## Module 14: Packet Analysis with Wireshark
 - [ ] Wireshark Fundamentals (capturing, interfaces, promiscuous vs monitor mode)
 - [ ] Capture Filters (syntax: host, net, port, src, dst, protocol)
 - [ ] Display Filters (syntax: ip.addr, tcp.port, http.request, tcp.flags.syn)
@@ -157,7 +171,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] tshark (command-line analysis)
 - [ ] Hands-on: Detect port scans, ARP spoofing, suspicious traffic
 
-## Module 14: Vulnerability Scanning
+## Module 15: Vulnerability Scanning
 - [ ] Vulnerability Assessment Methodology (pre-scan, scan, post-scan, reporting)
 - [ ] OpenVAS (setup, configuration, scanning, reading results)
 - [ ] Nessus Essentials (free version, policy creation, scan templates)
@@ -169,7 +183,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Vulnerability Prioritization (severity, exploitability, asset criticality)
 - [ ] Hands-on: Scan Metasploitable, produce vulnerability report
 
-## Module 15: Steganography
+## Module 16: Steganography
 - [ ] Steganography vs Cryptography vs Watermarking
 - [ ] Image Steganography (LSB, DCT, palette-based, Steghide, OpenStego, StegSolve)
 - [ ] Audio Steganography (LSB, phase coding, echo hiding, DeepSound)
@@ -181,9 +195,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 4: WEB APPLICATION SECURITY (Modules 16-19)
+## PHASE 4: WEB APPLICATION SECURITY (Modules 17-20)
 
-## Module 16: Web Fundamentals & OWASP Top 10
+## Module 17: Web Fundamentals & OWASP Top 10
 - [ ] HTTP Protocol Deep Dive (methods: GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD)
 - [ ] HTTP Headers (request: Host, User-Agent, Cookie, Referer; response: Set-Cookie, Location, Server)
 - [ ] HTTP Status Codes (1xx, 2xx, 3xx, 4xx, 5xx - memorize critical ones)
@@ -194,7 +208,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] OWASP Top 10 2024 (new changes preview)
 - [ ] Hands-on: Analyze HTTP traffic, identify security headers
 
-## Module 17: Web Proxy Tools (Burp Suite & OWASP ZAP)
+## Module 18: Web Proxy Tools (Burp Suite & OWASP ZAP)
 - [ ] Burp Suite Community Edition (setup, proxy, certificate)
 - [ ] Burp Suite Features (Target, Proxy, Intruder, Repeater, Decoder, Comparer, Sequencer, Scanner)
 - [ ] Burp Extensions (BApp Store: Turbo Intruder, Logger++, Active Scan++, Autorize)
@@ -203,7 +217,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Comparing Burp vs ZAP (when to use which)
 - [ ] Hands-on: Intercept and modify requests, brute-force login with Intruder
 
-## Module 18: Web Vulnerabilities - Part 1 (Injection & XSS)
+## Module 19: Web Vulnerabilities - Part 1 (Injection & XSS)
 - [ ] SQL Injection (Union, Boolean Blind, Time-based, Error-based, Out-of-band)
 - [ ] NoSQL Injection (MongoDB, CouchDB)
 - [ ] Command Injection (OS, application)
@@ -214,7 +228,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] XSS BeEF Framework (browser exploitation)
 - [ ] Hands-on: Exploit SQL injection, steal cookies with XSS
 
-## Module 19: Web Vulnerabilities - Part 2 (Other Critical Vulnerabilities)
+## Module 20: Web Vulnerabilities - Part 2 (Other Critical Vulnerabilities)
 - [ ] CSRF (Cross-Site Request Forgery) - how it works, anti-CSRF tokens
 - [ ] IDOR (Insecure Direct Object Reference) - parameter tampering
 - [ ] LFI/RFI (Local/Remote File Inclusion) - wrappers: php://filter, php://input, expect://
@@ -228,9 +242,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 5: NETWORK ATTACKS (Modules 20-22)
+## PHASE 5: NETWORK ATTACKS (Modules 21-23)
 
-## Module 20: Denial of Service (DoS) & Distributed Denial of Service (DDoS)
+## Module 21: Denial of Service (DoS) & Distributed Denial of Service (DDoS)
 - [ ] DoS vs DDoS (differences, scale, impact)
 - [ ] Types of DoS/DDoS Attacks:
     - Volume-based (UDP flood, ICMP flood, amplification)
@@ -246,7 +260,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Real-world DDoS Attacks (Dyn 2016, GitHub 2018, AWS 2020)
 - [ ] Hands-on: Simulate Slowloris attack (lab only), analyze DDoS in Wireshark
 
-## Module 21: Man-in-the-Middle (MITM) & Network Eavesdropping
+## Module 22: Man-in-the-Middle (MITM) & Network Eavesdropping
 - [ ] MITM Attack Overview (how it works, where it happens)
 - [ ] ARP Spoofing/Poisoning (gratuitous ARP, ARP cache poisoning)
 - [ ] DNS Spoofing (dnsspoof, Ettercap, BetterCAP)
@@ -259,7 +273,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Defenses (ARP spoofing detection, DNSSEC, HTTPS, TLS, MACsec, 802.1X)
 - [ ] Hands-on: ARP spoofing, capture traffic, DNS spoof a domain
 
-## Module 22: DNS Attacks & Abuse
+## Module 23: DNS Attacks & Abuse
 - [ ] How DNS Works (recursive query, iterative query, caching)
 - [ ] DNS Attack Types:
     - DNS Spoofing/Cache Poisoning
@@ -276,9 +290,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 6: PASSWORD ATTACKS (Modules 23-24)
+## PHASE 6: PASSWORD ATTACKS (Modules 24-25)
 
-## Module 23: Online Password Attacks
+## Module 24: Online Password Attacks
 - [ ] Brute-Force vs Dictionary vs Hybrid Attack (differences, when to use)
 - [ ] Wordlists (RockYou, SecLists, CrackStation, Weakpass, Custom generation)
 - [ ] Crunch (wordlist generator)
@@ -291,7 +305,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Password Spraying (vertical vs horizontal)
 - [ ] Hands-on: Brute-force SSH, HTTP login form with Hydra
 
-## Module 24: Offline Password Cracking
+## Module 25: Offline Password Cracking
 - [ ] Hash Types (LM, NTLM, NetNTLMv1/v2, MD5, SHA1, SHA256, bcrypt, scrypt, Argon2, MySQL, PostgreSQL)
 - [ ] Hash Identification (hashid, hash-identifier, online tools)
 - [ ] Hash Extraction (Windows SAM, /etc/shadow, memory dumps)
@@ -307,9 +321,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 7: EXPLOITATION (Modules 25-29)
+## PHASE 7: EXPLOITATION (Modules 26-30)
 
-## Module 25: Metasploit Framework (Full)
+## Module 26: Metasploit Framework (Full)
 - [ ] Metasploit Architecture (msfconsole, modules: exploits, payloads, auxiliary, encoders, nops, post)
 - [ ] Metasploit Terminology (vulnerability, exploit, payload, shellcode, listener, session)
 - [ ] Information Gathering with Auxiliary Modules (port scanners, service enumerators)
@@ -323,7 +337,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Resource Scripts (automation with .rc files)
 - [ ] Hands-on: Exploit EternalBlue (MS17-010), get Meterpreter session
 
-## Module 26: Buffer Overflow & Binary Exploitation
+## Module 27: Buffer Overflow & Binary Exploitation
 - [ ] Memory Layout (text, data, bss, heap, stack, registers: EIP, ESP, EBP, EAX, EBX)
 - [ ] What is Buffer Overflow (stack-based, heap-based)
 - [ ] Stack Buffer Overflow (overwrite EIP, JMP ESP, shellcode execution)
@@ -338,7 +352,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
     - Stack Canaries → overflow without overwriting canary
 - [ ] Hands-on: Classic buffer overflow (vulnserver, OSCP style) - Windows
 
-## Module 27: Shells, Payloads & Reverse Engineering
+## Module 28: Shells, Payloads & Reverse Engineering
 - [ ] Types of Shells (reverse, bind, web, encrypted, IPv6)
 - [ ] Netcat Shells (nc -e /bin/bash, nc -lvp 4444)
 - [ ] Socat (advanced nc alternative)
@@ -349,7 +363,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] SMB/HTTP Payload Delivery
 - [ ] Hands-on: Create reverse shell, upgrade to full TTY
 
-## Module 28: Evasion Techniques & Anti-Virus Bypass
+## Module 29: Evasion Techniques & Anti-Virus Bypass
 - [ ] Why AV Evasion Matters (signature-based, heuristic, behavioral)
 - [ ] AV Detection Methods (static analysis, dynamic analysis, emulation, cloud lookups)
 - [ ] Packers and Crypters (UPX, Hyperion, Themida)
@@ -362,7 +376,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Tools (Shellter, Veil-Evasion, PE-Crypter, ScareCrow)
 - [ ] Hands-on: Bypass Windows Defender with custom payload
 
-## Module 29: Social Engineering & Phishing
+## Module 30: Social Engineering & Phishing
 - [ ] Social Engineering Principles (Cialdini's 6: authority, scarcity, liking, reciprocity, social proof, commitment)
 - [ ] Types (Phishing, Vishing, Smishing, Spear Phishing, Whaling, Pretexting, Baiting, Tailgating, Quid Pro Quo)
 - [ ] SEToolkit (website cloning, credential harvesting, spear-phishing payload generation)
@@ -375,9 +389,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 8: POST-EXPLOITATION (Modules 30-32)
+## PHASE 8: POST-EXPLOITATION (Modules 31-33)
 
-## Module 30: Privilege Escalation (Linux)
+## Module 31: Privilege Escalation (Linux)
 - [ ] Why Privilege Escalation Matters (user → root)
 - [ ] Enumeration Methodology (automated vs manual)
 - [ ] Kernel Exploits (Dirty Cow, PwnKit, Overlayfs)
@@ -391,7 +405,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Tools (LinPEAS, LinEnum, Linux Smart Enumeration, PSPY)
 - [ ] Hands-on: Escalate www-data → root using 3 different methods
 
-## Module 31: Privilege Escalation (Windows)
+## Module 32: Privilege Escalation (Windows)
 - [ ] Windows Privilege Escalation (user → SYSTEM)
 - [ ] Enumeration (systeminfo, whoami /all, net users, net localgroup, schtasks, wmic, reg query)
 - [ ] Kernel Exploits (MS16-032, MS17-010, CVE-2019-1388, PrintNightmare)
@@ -405,7 +419,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Tools (WinPEAS, PowerUp, BeRoot, Seatbelt, PrivescCheck)
 - [ ] Hands-on: Escalate NT AUTHORITY\SYSTEM via 3 methods
 
-## Module 32: Lateral Movement, Pivoting & Persistence
+## Module 33: Lateral Movement, Pivoting & Persistence
 - [ ] Lateral Movement (moving across network)
 - [ ] Techniques (Pass-the-Hash, Pass-the-Ticket, WMI, PsExec, WinRM, SMBExec, Schtasks, RDP)
 - [ ] WMI for Lateral Movement (wmic process call create)
@@ -423,9 +437,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 9: ADVANCED OFFENSIVE (Modules 33-36)
+## PHASE 9: ADVANCED OFFENSIVE (Modules 34-37)
 
-## Module 33: Active Directory Hacking (Full)
+## Module 34: Active Directory Hacking (Full)
 - [ ] AD Architecture (Domains, Trees, Forests, OUs, Trusts, Domain Controllers, Sites)
 - [ ] AD Authentication (Kerberos, NTLM, LDAP, SMB)
 - [ ] AD Enumeration (BloodHound, SharpHound, ldapsearch, PowerView, ADExplorer)
@@ -441,7 +455,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] ACL Abuse (AdminSDHolder, Extended Rights)
 - [ ] Hands-on: Attack AD, Kerberoast, DCSync
 
-## Module 34: Wi-Fi & Wireless Hacking
+## Module 35: Wi-Fi & Wireless Hacking
 - [ ] 802.11 Standards (Wi-Fi 4,5,6,6E,7 - channels, frequencies, bandwidth)
 - [ ] Wi-Fi Security (WEP, WPA, WPA2-PSK, WPA2-Enterprise, WPA3-SAE, WPA3-Enterprise, OWE)
 - [ ] Monitor Mode vs Managed Mode
@@ -456,7 +470,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Tools (Aircrack-ng, Reaver, Wash, BetterCAP, Wifite, Airgeddon)
 - [ ] Hands-on: Capture handshake, crack WPA2, create evil twin
 
-## Module 35: Cloud Security (AWS & Azure)
+## Module 36: Cloud Security (AWS & Azure)
 - [ ] Cloud Models (IaaS, PaaS, SaaS, FaaS, CaaS)
 - [ ] Shared Responsibility Model (AWS vs Azure vs GCP)
 - [ ] AWS Security (IAM, S3, EC2, Lambda, RDS, VPC, CloudTrail, GuardDuty)
@@ -469,7 +483,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Defenses (CSPM, CWPP, CASB)
 - [ ] Hands-on: Identify S3 bucket misconfigurations, enumerate Azure tenant
 
-## Module 36: Mobile Security (Android & iOS)
+## Module 37: Mobile Security (Android & iOS)
 - [ ] Android Architecture (kernel, HAL, ART, permissions, sandbox)
 - [ ] Android Security (root vs non-root, bootloader, verified boot, SafetyNet)
 - [ ] Android App Analysis (APKTool, jadx, MobSF, Frida, Objection)
@@ -483,9 +497,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 10: BLUE TEAM & DEFENSE (Modules 37-42)
+## PHASE 10: BLUE TEAM & DEFENSE (Modules 38-43)
 
-## Module 37: Denial of Service (DoS/DDoS) - Defense & Mitigation
+## Module 38: Denial of Service (DoS/DDoS) - Defense & Mitigation
 - [ ] DDoS Detection (traffic spikes, anomaly detection, baseline)
 - [ ] On-Premise Mitigation (rate limiting, blackholing/RTBH, scrubbing centers, traffic diversion)
 - [ ] Cloud-Based Mitigation (Cloudflare, AWS Shield Advanced, Akamai Prolexic, Imperva, Google Cloud Armor)
@@ -498,7 +512,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Real-world DDoS Mitigation Case Studies
 - [ ] Hands-on: Configure rate limiting, analyze DDoS logs
 
-## Module 38: Firewalls & IDS/IPS
+## Module 39: Firewalls & IDS/IPS
 - [ ] Firewall Types (Packet filtering, Stateful, Next-Gen, WAF, Cloud Firewall)
 - [ ] iptables/nftables (Linux firewall: rules, chains, tables)
 - [ ] Windows Firewall (inbound/outbound rules, advanced security)
@@ -510,7 +524,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] WAF (ModSecurity, Cloudflare WAF, AWS WAF)
 - [ ] Hands-on: Write Snort rule, detect SQL injection, block with iptables
 
-## Module 39: Log Analysis & SIEM
+## Module 40: Log Analysis & SIEM
 - [ ] Why Logs Matter (detection, investigation, compliance)
 - [ ] Linux Logs (/var/log: auth.log, syslog, kern.log, dpkg.log, apt, nginx, mysql)
 - [ ] Windows Event Logs (Security, System, Application, PowerShell, Setup, ForwardedEvents)
@@ -524,7 +538,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Writing Detection Queries (find brute force, port scans, malware)
 - [ ] Hands-on: Build ELK stack, ingest logs, write detection rules
 
-## Module 40: Malware Analysis & Reverse Engineering
+## Module 41: Malware Analysis & Reverse Engineering
 - [ ] Malware Types (Virus, Worm, Trojan, Ransomware, Rootkit, Bootkit, Dropper, Downloader, Keylogger, Adware, Spyware, RAT)
 - [ ] Malware Delivery (phishing, drive-by, supply chain, removable media)
 - [ ] Static Analysis (strings, hashes, PE structure, import table, PE-bear, Detect It Easy, pestudio)
@@ -536,7 +550,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Safe Malware Handling (isolated VM, REMnux, FLARE VM)
 - [ ] Hands-on: Analyze real malware sample (safe one, e.g., WannaCry simulation)
 
-## Module 41: Incident Response
+## Module 42: Incident Response
 - [ ] Incident Response Lifecycle (NIST 800-61: Preparation, Detection & Analysis, Containment, Eradication, Recovery, Post-Incident)
 - [ ] IR Team Roles (Incident Commander, Technical Lead, Forensic Lead, Communications, Legal, Management)
 - [ ] Incident Classification (SEV1, SEV2, SEV3, SEV4)
@@ -549,7 +563,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] IR Playbooks (ransomware, phishing, data exfiltration, DoS/DDoS, insider threat)
 - [ ] Hands-on: Simulate ransomware incident, run through full IR process
 
-## Module 42: Digital Forensics
+## Module 43: Digital Forensics
 - [ ] Forensic Principles (Locard's Exchange Principle, order of volatility, chain of custody)
 - [ ] Disk Forensics (dd, FTK Imager, Autopsy, The Sleuth Kit)
 - [ ] File Carving (foremost, scalpel, photorec)
@@ -564,9 +578,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 11: THREAT HUNTING & PROACTIVE DEFENSE (Modules 43-44)
+## PHASE 11: THREAT HUNTING & PROACTIVE DEFENSE (Modules 44-45)
 
-## Module 43: Threat Hunting
+## Module 44: Threat Hunting
 - [ ] Threat Hunting vs Incident Response (proactive vs reactive)
 - [ ] Hunting Maturity Model (HM0 to HM4)
 - [ ] Hypothesis-Driven Hunting (assume compromise, investigate)
@@ -578,7 +592,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Hunting Tools (Velociraptor, osquery, KAPE)
 - [ ] Hands-on: Hunt for lateral movement, persistence, data exfiltration
 
-## Module 44: Red Team vs Blue Team vs Purple Team
+## Module 45: Red Team vs Blue Team vs Purple Team
 - [ ] Red Team (offensive, stealth, objective-based, APT simulation)
 - [ ] Blue Team (defensive, monitoring, hunting, IR)
 - [ ] Purple Team (collaboration, knowledge transfer, improving detection)
@@ -592,9 +606,9 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 
 ---
 
-## PHASE 12: RISK, REPORTING & CAREER (Modules 45-47)
+## PHASE 12: RISK, REPORTING & CAREER (Modules 46-48)
 
-## Module 45: Risk Management & Business Continuity
+## Module 46: Risk Management & Business Continuity
 - [ ] Risk Management Framework (NIST RMF: Identify, Protect, Detect, Respond, Recover)
 - [ ] Risk Assessment (qualitative vs quantitative, SLE, ARO, ALE, ROI)
 - [ ] Risk Treatment (Avoid, Transfer, Mitigate, Accept)
@@ -603,7 +617,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Business Continuity (BC - alternate processes, work-from-home, supply chain)
 - [ ] Hands-on: Write basic risk assessment for mock company
 
-## Module 46: Reporting & Communication
+## Module 47: Reporting & Communication
 - [ ] Why Reporting is the Most Important Skill (clients read reports, not technical results)
 - [ ] Types of Reports (vulnerability assessment, penetration test, red team, incident report)
 - [ ] Report Structure (Executive Summary, Scope, Methodology, Findings, Risk Ratings, Recommendations, Appendix)
@@ -616,7 +630,7 @@ Zero to job-ready professional. No gaps continous learning for 1-1.5 years. Cove
 - [ ] Verbal Communication (debriefing, explaining technical issues to non-technical)
 - [ ] Hands-on: Write full pentest report with 3 findings
 
-## Module 47: Career Path, Certifications & Job Preparation
+## Module 48: Career Path, Certifications & Job Preparation
 - [ ] Career Paths:
     - Offensive (Junior Pentester → Senior Pentester → Red Teamer → Principal)
     - Defensive (SOC Analyst → Threat Hunter → IR Lead → SOC Manager)

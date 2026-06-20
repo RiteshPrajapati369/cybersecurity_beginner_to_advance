@@ -1,5 +1,4 @@
-# Module 9: Linux Basic Commands for Security Professionals
-
+# Module 9: Linux Basic Commands
 > **Phase 1 — Absolute Foundations**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 6–8 hours | 📁 Folder: `01_FOUNDATIONS`
 

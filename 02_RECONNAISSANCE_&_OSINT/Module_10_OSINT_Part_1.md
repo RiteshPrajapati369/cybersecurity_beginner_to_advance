@@ -1,4 +1,4 @@
-# Module 9: OSINT (Open Source Intelligence) - Part 1
+# Module 10: OSINT (Open Source Intelligence) - Part 1
 
 > **Phase 2 — Reconnaissance & OSINT**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 4–5 hours | 📁 Folder: `02_OSINT`
@@ -611,7 +611,7 @@ Save `lab_09_osint_basics.md` in your course notes folder.
 
 **Previous Module:** [Module 8 — Virtualization & Home Lab Setup ](../01_FOUNDATIONS/Module_08_Virtualization_and_Home_Lab.md)
 
-**Next Module:** [Module 10 — OSINT Part 2 (People & Social Media) ](Module_10_OSINT_Part_2.md)
+**Next Module:** [Module 10 — OSINT Part 2 (People & Social Media) ](Module_11_OSINT_Part_2.md)
 
 ---
 

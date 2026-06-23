@@ -974,21 +974,21 @@ Create `stego_lab_report.md`:
 
 | Task | Command |
 |---|---|
-| **HIDE in image** | `steghide embed -cf cover.jpg -ef secret.txt -p "pass"` |
-| **EXTRACT from image** | `steghide extract -sf image.jpg -p "pass"` |
-| **Check for hidden data** | `steghide info image.jpg` |
-| **HIDE in PNG** | `java -jar openstego.jar embed -a LSB -mf secret.txt -cf cover.png -sf stego.png -p "pass" -e` |
-| **EXTRACT from PNG** | `java -jar openstego.jar extract -sf stego.png -xf extracted.txt -p "pass"` |
-| **HIDE in metadata** | `exiftool -Comment="data" photo.jpg` |
-| **EXTRACT metadata** | `exiftool -Comment photo.jpg` |
-| **Strip metadata** | `exiftool -all= photo.jpg` |
-| **Check file type** | `file suspicious.jpg` |
-| **Find embedded files** | `binwalk suspicious.jpg` |
-| **Extract embedded files** | `binwalk -e suspicious.jpg` |
-| **Visual LSB inspection** | `java -jar stegsolve.jar` |
-| **Statistical LSB detection** | `java -jar StegExpose.jar suspicious.png` |
-| **JPEG algorithm detection** | `stegdetect suspicious.jpg` |
-| **Recover files** | `foremost -i suspicious.bin -o output/` |
+| **HIDE in image** | steghide embed -cf cover.jpg -ef secret.txt -p "pass" |
+| **EXTRACT from image** | steghide extract -sf image.jpg -p "pass" |
+| **Check for hidden data** | steghide info image.jpg |
+| **HIDE in PNG** | java -jar openstego.jar embed -a LSB -mf secret.txt -cf cover.png -sf stego.png -p "pass" -e |
+| **EXTRACT from PNG** | java -jar openstego.jar extract -sf stego.png -xf extracted.txt -p "pass" |
+| **HIDE in metadata** | exiftool -Comment="data" photo.jpg |
+| **EXTRACT metadata** | exiftool -Comment photo.jpg |
+| **Strip metadata** | exiftool -all= photo.jpg |
+| **Check file type** | file suspicious.jpg |
+| **Find embedded files** | binwalk suspicious.jpg |
+| **Extract embedded files** | binwalk -e suspicious.jpg |
+| **Visual LSB inspection** | java -jar stegsolve.jar |
+| **Statistical LSB detection** | java -jar StegExpose.jar suspicious.png |
+| **JPEG algorithm detection** | stegdetect suspicious.jpg |
+| **Recover files** | foremost -i suspicious.bin -o output/ |
 
 ### 10.2 Quick Decision Tree
 
@@ -1032,8 +1032,11 @@ D) Steganography is legal, cryptography is not
 **2. Which command hides `secret.txt` in `cat.jpg` with password `"hack"`?**
 
 A) `steghide extract -sf cat.jpg -ef secret.txt -p "hack"`
+
 B) `steghide embed -cf cat.jpg -ef secret.txt -p "hack"`
+
 C) `steghide hide -cf cat.jpg -ef secret.txt -p "hack"`
+
 D) `steghide stego -cf cat.jpg -ef secret.txt -p "hack"`
 
 **3. Why can't you use LSB steganography on a JPEG saved with normal compression?**

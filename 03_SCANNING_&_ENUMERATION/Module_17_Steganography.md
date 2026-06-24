@@ -1255,7 +1255,7 @@ Before moving to Module 17, confirm you can:
 
 ---
 
-**Previous Module:** [← Module 16 — Packet Analysis with Wireshark](Module_16_Packet_Analysis_with_Wireshark.md)
+**Previous Module:** [Module 16 — Vulnerability Scanning](Module_16_Vulnerability_Scanning.md)
 
 **Next Module:** [Module 18 — Web Fundamentals & OWASP Top 10 →](/Web_Application_Security/Module_17_Web_Fundamentals_OWASP.md)
 

@@ -137,8 +137,8 @@ Each relay only knows the previous and next hop. No single relay knows both the 
 3. **Exit relay** — It was also known as Relay 3 and this relay knows the destination, but not your IP.
 
 ### Installing TOR Browser
-```bash
-Suggestion: Use TOR Browser in Virtual Machine for you and your all data safty and Not to enter without
+```
+Suggestion: Use TOR Browser in Virtual Machine for your device and data safty and do not to enter without
 knowing if the link was legal to use or not because they can be harmful like stealing data got virus
 in your device. And if any case such problem appear you data can be safe and can uninstall which make
 your main machine/devic safe.

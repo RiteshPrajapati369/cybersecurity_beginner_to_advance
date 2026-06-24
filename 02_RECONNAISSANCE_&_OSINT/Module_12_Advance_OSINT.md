@@ -1137,9 +1137,9 @@ Create `lab_12_osint_report.md`:
 
 ---
 
-**Previous Module:** [Module 11 — OSINT Part 2 →](/Module_11_OSINT_Part2.md)
+**Previous Module:** [Module 11 — OSINT Part 2 →](Module_11_OSINT_Part_2.md)
 
-**Next Module:** [Module 14 — Anonymity, Privacy & operational Security](Module_14_Anonymity_Privacy_&_Operational_Security.md)
+**Next Module:** [Module 13 — Anonymity, Privacy & operational Security](Module_13_Anonymity_Privacy_&_Operational_Security.md)
 
 ---
 

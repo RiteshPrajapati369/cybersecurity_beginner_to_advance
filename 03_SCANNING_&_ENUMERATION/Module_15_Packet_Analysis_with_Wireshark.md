@@ -1,4 +1,4 @@
-# Module 16: Packet Analysis with Wireshark
+# Module 15: Packet Analysis with Wireshark
 
 > **Phase 3 — Scanning & Enumeration**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 8–10 hours | 📁 Folder: `03_SCANNING`
@@ -1642,10 +1642,10 @@ Create `lab_13_packet_analysis.md`:
 
 ---
 
-**Previous Module:** [Module 15 — Network Scanning with Nmap ](Module_15_Vulnerability_Scanning.md)
+**Previous Module:** [Module 14 — Network Scanning with Nmap ](Module_16_Vulnerability_Scanning.md)
 
-**Next Module:** [Module 17 — Steganography ](Module_17_Steganography.md)
+**Next Module:** [Module 16 — Steganography ](Module_17_Steganography.md)
 
 ---
 
-*Module 16 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*
+*Module 15 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*

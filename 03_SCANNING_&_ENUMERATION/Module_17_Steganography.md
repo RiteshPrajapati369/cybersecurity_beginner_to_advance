@@ -1,4 +1,4 @@
-# Module 16: Steganography
+# Module 17: Steganography
 
 > **Phase 3 — Scanning & Enumeration**
 > 🟡 Difficulty: Beginner | ⏱ Estimated Time: 8–10 hours | 📁 Folder: `03_SCANNING_ENUMERATION`
@@ -1255,10 +1255,10 @@ Before moving to Module 17, confirm you can:
 
 ---
 
-**Previous Module:** [← Module 15 — Vulnerability Scanning](Module_15_Vulnerability_Scanning.md)
+**Previous Module:** [← Module 16 — Vulnerability Scanning](Module_16_Vulnerability_Scanning.md)
 
-**Next Module:** [Module 17 — Web Fundamentals & OWASP Top 10 →](/Web_Application_Security/Module_17_Web_Fundamentals_OWASP.md)
+**Next Module:** [Module 18 — Web Fundamentals & OWASP Top 10 →](/Web_Application_Security/Module_17_Web_Fundamentals_OWASP.md)
 
 ---
 
-*Module 16 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*
+*Module 17 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*

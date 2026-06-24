@@ -1,4 +1,4 @@
-# Module 13: Network Scanning with Nmap
+# Module 14: Network Scanning with Nmap
 
 > **Phase 3 — Scanning & Enumeration**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 8–10 hours | 📁 Folder: `03_SCANNING`
@@ -1434,4 +1434,4 @@ Create `lab_12_nmap_enumeration.md`:
 
 ---
 
-*Module 12 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*
+*Module 14 | Phase 3: Scanning & Enumeration | cybersecurity_beginner_to_advance*

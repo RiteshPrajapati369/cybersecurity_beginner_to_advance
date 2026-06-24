@@ -1642,7 +1642,7 @@ Create `lab_13_packet_analysis.md`:
 
 ---
 
-**Previous Module:** [Module 14 — Network Scanning with Nmap ](Module_16_Vulnerability_Scanning.md)
+**Previous Module:** [Module 14 — Network Scanning with Nmap ](Module_14_Network_Scanning_with_Nmap.md)
 
 **Next Module:** [Module 16 - Vulnerability Scanning ](Module_16_Vulnerability_Scanning.md)
 

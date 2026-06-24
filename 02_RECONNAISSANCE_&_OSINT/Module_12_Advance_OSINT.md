@@ -1144,4 +1144,3 @@ Create `lab_12_osint_report.md`:
 ---
 
 *Module 12 | Phase 2: Reconnaissance & OSINT | cybersecurity_beginner_to_advance*
-```

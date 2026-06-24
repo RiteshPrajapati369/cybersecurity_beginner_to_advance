@@ -1100,7 +1100,7 @@ Save `lab_10_full_osint_report.md` with your findings.
 
 **Previous Module:** [Module 10 — OSINT Part 1](Module_10_OSINT_Part_1.md)
 
-**Next Module:** [Module 12 — Advance OSINT Method](Module_10_OSINT_Advance.md)
+**Next Module:** [Module 12 — Advance OSINT](Module_12_Advance_OSINT.md)
 
 ---
 

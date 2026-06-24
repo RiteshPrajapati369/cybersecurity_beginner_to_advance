@@ -1,4 +1,4 @@
-# Module 12: Anonymity, Privacy & Operational Security
+# Module 13: Anonymity, Privacy & Operational Security
 
 > **Phase 2 — Reconnaissance & OSINT**
 > 🟢 Difficulty: Beginner | ⏱ Estimated Time: 4–5 hours | 📁 Folder: `02_OSINT`
@@ -944,10 +944,10 @@ Create `lab_11_anonymity_ops.md`:
 
 ---
 
-**Previous Module:** [Module 11 — OSINT Part 2](Module_11_OSINT_Part_2.md)
+**Previous Module:** [Module 12 — OSINT Part 2](Module_12_OSINT_Advance.md)
 
-**Next Module:** [Module 13 — Network Scanning with Nmap](../03_SCANNING_&_ENUMERATION/Module_13_Network_Scanning_with_Nmap.md)
+**Next Module:** [Module 14 — Network Scanning with Nmap](../03_SCANNING_&_ENUMERATION/Module_14_Network_Scanning_with_Nmap.md)
 
 ---
 
-*Module 11 | Phase 2: Reconnaissance & OSINT | cybersecurity_beginner_to_advance*
+*Module 13 | Phase 2: Reconnaissance & OSINT | cybersecurity_beginner_to_advance*

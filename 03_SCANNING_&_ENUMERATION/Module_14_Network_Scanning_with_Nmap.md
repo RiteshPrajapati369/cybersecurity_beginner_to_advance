@@ -1428,9 +1428,9 @@ Create `lab_12_nmap_enumeration.md`:
 
 ---
 
-**Previous Module:** [Module 11 — Anonymity, Privacy & OpSec](../02_RECONNAISSANCE_&_OSINT/Module_12_Anonymity_Privacy_&_Operational_Security.md)
+**Previous Module:** [Module 13 — Anonymity, Privacy & OpSec](../02_RECONNAISSANCE_&_OSINT/Module_13_Anonymity_Privacy_&_Operational_Security.md)
 
-**Next Module:** [Module 14 — Packet Analysis with Wireshark](Module_14_Packet_Analysis_with_Wireshark.md)
+**Next Module:** [Module 15 — Packet Analysis with Wireshark](Module_14_Packet_Analysis_with_Wireshark.md)
 
 ---
 

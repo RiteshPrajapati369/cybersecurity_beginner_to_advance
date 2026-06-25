@@ -799,7 +799,7 @@ Create `lab_18_http_analysis.md`:
 
 ---
 
-**Previous Module:** [Module 17 — Steganography) ](../03_SCANNING_&_ENUMERATION/Module_17_Steganography.md)
+**Previous Module:** [Module 17 — Steganography](../03_SCANNING_&_ENUMERATION/Module_17_Steganography.md)
 
 **Next Module:** [Module 19 — Web Proxy Tool (Burpsuite)](Module_19_Web_Proxy_Tool.md)
 

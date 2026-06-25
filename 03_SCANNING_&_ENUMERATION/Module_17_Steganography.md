@@ -1257,7 +1257,7 @@ Before moving to Module 17, confirm you can:
 
 **Previous Module:** [Module 16 — Vulnerability Scanning](Module_16_Vulnerability_Scanning.md)
 
-**Next Module:** [Module 18 — Web Fundamentals & OWASP Top 10 →](../04_Web_Application_Security/Module_18_Web_Fundamentals_&_OWASP_Top_10.md)
+**Next Module:** [Module 18 — Web Fundamentals & OWASP Top 10 ](../04_Web_Application_Security/Module_18_Web_Fundamentals_&_OWASP_Top_10.md)
 
 ---
 

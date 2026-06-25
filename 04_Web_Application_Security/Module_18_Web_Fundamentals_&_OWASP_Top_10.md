@@ -661,9 +661,8 @@ If you have DVWA or Juice Shop installed:
 
 ### Deliverable
 
-Create `lab_18_http_analysis.md`:
+Create _lab_18_http_analysis.md_:
 
-```markdown
 # Lab 18: HTTP Traffic Analysis
 
 ## Part 1: HTTP Request Analysis
@@ -695,7 +694,6 @@ Create `lab_18_http_analysis.md`:
 - [List any security issues detected]
 - [List any missing security headers]
 - [Recommendations]
-```
 
 ---
 

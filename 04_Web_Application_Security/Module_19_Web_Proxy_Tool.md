@@ -721,7 +721,7 @@ Secret123
 
 ---
 
-**Previous Module:** [Module 18 — Web Fundamentals & OWASP Top 10 ](/Module_18_Web_Fundamentals_&_OWASP_Top_10.md)
+**Previous Module:** [Module 18 — Web Fundamentals & OWASP Top 10 ](Module_18_Web_Fundamentals_&_OWASP_Top_10.md)
 
 **Next Module:** [Module 20 — Web Vulnerabilities Part 1 (Injection & XSS)](Module_20_Web_Vulnerabilities_Part1.md)
 

@@ -651,9 +651,9 @@ Your lab is ready. Proceed to **Module 9: Linux Basic Commands**.
 
 ---
 
-**Previous Module:** Module 7 — Linux Security & Administration
+**Previous Module:** [Module 7 — Linux Security & Administration](Module_07_Linux_Security_&_Administration.md)
 
-**Next Module:** Module 9: Linux Basic Commands
+**Next Module:** [Module 9: Linux Basic Commands](Module_09_Linux_Basic_Commands.md)
 
 ---
 
